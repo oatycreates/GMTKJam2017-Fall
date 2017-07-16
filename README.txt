@@ -1,6 +1,8 @@
-﻿# Fall
+# Fall
 
 Game by: Known_esoteriC and Oaty (@DevPatF)
+
+Itch.io page: https://oaty.itch.io/fall
 
 Climb as high as possible while collecting wings and avoiding the ever consuming Hell-maw.
 
