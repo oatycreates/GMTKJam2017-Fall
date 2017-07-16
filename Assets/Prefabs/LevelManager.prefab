@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1555205966120404}
+  m_IsPrefabParent: 1
+--- !u!1 &1555205966120404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4866883397529632}
+  - component: {fileID: 114596939999643990}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4866883397529632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555205966120404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114596939999643990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555205966120404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862810cc277228246a3cc4929b5b2a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallXOffset: 2.25
+  wallHeightWorld: 2
+  platformBlockSizeWorld: 1
+  platformVerticalSpacing: 3
+  maxNumBlocksHorizPlatformDrift: 2
+  coinBlockSizeWorld: 0.25
+  coinVerticalSpacing: 14
+  maxNumBlocksHorizCoinDrift: 4
+  backgroundHeightWorld: 9.92
+  wallLeftPrefab: {fileID: 1821548286097836, guid: 9c419b5331c5f5d479a2fe09f30309da,
+    type: 2}
+  wallRightPrefab: {fileID: 1170156092944076, guid: afabe0ac530e9e64dad3d41c607f48ad,
+    type: 2}
+  coinPrefab: {fileID: 1759497110197202, guid: 08b4999acf6e97d4e86661561cf2582b, type: 2}
+  backgroundTilePrefab: {fileID: 1532008632204980, guid: 0d01556066fe5d248834aa2b56e64f35,
+    type: 2}
+  platformPrefabs:
+  - {fileID: 1723392091768924, guid: b30877307069a804591308e72749ccde, type: 2}
+  - {fileID: 1639758866048554, guid: 627cef4272ec0cf4d8471c642a445829, type: 2}
+  - {fileID: 1087096875894006, guid: 03e819b1ce917e046b64f81a494992f4, type: 2}
+  - {fileID: 1315874198881348, guid: 3a663e7b99c92a546a3781d0f3baef7b, type: 2}
+  - {fileID: 1207150202760016, guid: 552e3dfbf77ce6d4d863707ee74d31aa, type: 2}
+  - {fileID: 1296244001302966, guid: d68f70b5518b67e4294a9b4961255e60, type: 2}
+  - {fileID: 1185919467164216, guid: 2dae98b769fcb8d4fb891c8e3e106e1f, type: 2}
+  - {fileID: 1913143912612904, guid: 3c5e9d88ee23fb54a8622e20f1d6bc82, type: 2}
+  - {fileID: 1194354034306820, guid: 7a139e8f93db6dc40adf4318e81b893d, type: 2}
+  - {fileID: 1011392982620878, guid: 4656589d6b2756e4cb52257dfc9a2c80, type: 2}
+  - {fileID: 1531916469434348, guid: f17c34100a728f14fbb8f646f0b7c430, type: 2}
+  - {fileID: 1308947843562254, guid: 67c807ebeb519694f94698d125780682, type: 2}
+  - {fileID: 1844468111514556, guid: 978134fc17b748e4ba208c483b007cdd, type: 2}
+  - {fileID: 1647216249161312, guid: 202da81f9984d9c45a304209f4cdfd8d, type: 2}
+  - {fileID: 1018829900657658, guid: e19f094ad4ccb2341a8f85a57da92d3c, type: 2}
+  - {fileID: 1554863430997000, guid: e2faeb1225c3746439e04334f883dea9, type: 2}
+  - {fileID: 1237075979297022, guid: 1aa3b66a8ccefa748baf3928434cdd14, type: 2}
+  - {fileID: 1931619703356518, guid: 2c361168b3d951f4480f89a7323a7fe7, type: 2}
+  - {fileID: 1584826277207574, guid: 96cfe87b7eeb4e7468ca8ebb743c68d9, type: 2}
+  - {fileID: 1837172135724976, guid: b84dab5dedf6b5d4a83269c016e2bab9, type: 2}
